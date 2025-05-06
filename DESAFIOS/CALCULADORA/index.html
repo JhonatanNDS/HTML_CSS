@@ -9,6 +9,9 @@
 
 <body>
     <h1>Calculadora</h1>
+    <h3 style="display: inline;" id="ad">Resultado:</h3>
+    <h3 style="display: inline;" >10</h3><br>
+    
     <input type="number" name="num1" id="num1">
     <input type="number" name="num2" id="num2">
     <input type="button" value="OK" id="BTNcalc" onclick="calcular()">
@@ -37,7 +40,8 @@
         function somar(){
             var botao = document.getElementById("BTNsoma");
             botao.style.backgroundColor = "gray";
-            
+            soma = n1 + n2
+
         }
         function subtrair(){
             var botao = document.getElementById("BTNsub");
