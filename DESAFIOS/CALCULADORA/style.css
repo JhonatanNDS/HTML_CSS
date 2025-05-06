@@ -12,21 +12,28 @@ body > input{
     margin-right: 1%;
 }
 body > input#num1{
-    margin-left: 12%;
+    margin-left: 25%;
+    width: 100px;
 }
 
 body > input#num2{
-    margin-left: 0px;
+    margin-left: 15px;
+    width: 100px;
 }
 
 input[type="button"]{
     height: 40px;
     width: 40px;
+    border-radius: 15px;
+    border: 1px;
+    background-color: rgb(19, 175, 40);
+    font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #BTNcalc{
     margin: 0px;
-
+    font-size: 10pt;
 }
 
 #BTNsoma{
