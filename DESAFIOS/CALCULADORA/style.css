@@ -57,3 +57,7 @@ input[type="button"]{
 body h3#ad{
     margin-left: 150px;
 }
+
+body h3#his{
+    text-align: center;
+}

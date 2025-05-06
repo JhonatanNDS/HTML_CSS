@@ -24,30 +24,38 @@
             var n1 = Number(document.getElementById("num1").value);
             var n2 = Number(document.getElementById("num2").value);
             var soma = n1 + n2;
-
+            var h = `${n1} + ${n2} = ${soma}`
             document.getElementById("res").innerText = soma;
+            document.getElementById("his").innerText = h
         }
 
         function subtrair(){
             var n1 = Number(document.getElementById("num1").value);
             var n2 = Number(document.getElementById("num2").value);
             var resultado = n1 - n2;
+            var h = `${n1} - ${n2} = ${resultado}`
             document.getElementById("res").innerText = resultado;
+            document.getElementById("his").innerText = h
         }
 
         function multiplicar(){
             var n1 = Number(document.getElementById("num1").value);
             var n2 = Number(document.getElementById("num2").value);
             var resultado = n1 * n2;
+            var h = `${n1} x ${n2} = ${resultado}`
             document.getElementById("res").innerText = resultado;
+            document.getElementById("his").innerText = h
         }
 
         function dividir(){
             var n1 = Number(document.getElementById("num1").value);
             var n2 = Number(document.getElementById("num2").value);
             var resultado = n2 !== 0 ? (n1 / n2) : "Erro";
+            var h = `${n1} % ${n2} = ${resultado}`
             document.getElementById("res").innerText = resultado;
+            document.getElementById("his").innerText = h
         }
     </script>
+    <h3 id="his"></h3>
 </body>
 </html>
