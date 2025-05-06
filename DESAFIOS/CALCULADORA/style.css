@@ -12,7 +12,7 @@ body > input{
     margin-right: 1%;
 }
 body > input#num1{
-    margin-left: 24%;
+    margin-left: 26%;
     width: 70px;
 }
 
@@ -55,5 +55,5 @@ input[type="button"]{
     margin: 0px;
 }
 body h3#ad{
-    margin-left: 180px;
+    margin-left: 125px;
 }
