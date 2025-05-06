@@ -1,0 +1,48 @@
+html{
+    background-color: rgb(193, 253, 233);
+}
+
+body > h1{
+    text-align: center;
+}
+
+body > input{
+    margin-left: 27%;
+    height: 4vh;
+    margin-right: 1%;
+}
+body > input#num1{
+    margin-left: 12%;
+}
+
+body > input#num2{
+    margin-left: 0px;
+}
+
+input[type="button"]{
+    height: 40px;
+    width: 40px;
+}
+
+#BTNcalc{
+    margin: 0px;
+
+}
+
+#BTNsoma{
+    margin: 0px;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+#BTNsub{
+    margin: 0px;
+}
+
+#BTNmul{
+    margin: 0px;
+}
+
+#BTNdiv{
+    margin: 0px;
+}

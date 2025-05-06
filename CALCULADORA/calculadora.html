@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cauculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <input type="number" name="num1" id="num1">
+    <input type="number" name="num2" id="num2">
+    <input type="button" value="OK" id="BTNcalc" onclick="calcular()">
+    <input type="button" value="+" id="BTNsoma" onclick="calcular()">
+    <input type="button" value="-" id="BTNsub" onclick="calcular()">
+    <input type="button" value="x" id="BTNmul" onclick="calcular()">
+    <input type="button" value="%" id="BTNdiv" onclick="calcular()">
+    
+
+    <script>
+        var n1s = document.getElementById("num1")
+        var n2s = document.getElementById("num2")
+        var n1 = Number(n1s.value)
+        var n2 = Number(n2s.value)
+
+        function calcular(){
+
+        }
+    </script>
+</body>
+</html>
