@@ -29,6 +29,7 @@ input[type="button"]{
     background-color: rgb(19, 175, 40);
     font-size: 13pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
 }
 
 #BTNcalc{

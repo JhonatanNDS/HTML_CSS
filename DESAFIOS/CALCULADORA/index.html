@@ -12,10 +12,10 @@
     <input type="number" name="num1" id="num1">
     <input type="number" name="num2" id="num2">
     <input type="button" value="OK" id="BTNcalc" onclick="calcular()">
-    <input type="button" value="+" id="BTNsoma" onclick="calcular()">
-    <input type="button" value="-" id="BTNsub" onclick="calcular()">
-    <input type="button" value="x" id="BTNmul" onclick="calcular()">
-    <input type="button" value="%" id="BTNdiv" onclick="calcular()">
+    <input type="button" value="+" id="BTNsoma" onclick="">
+    <input type="button" value="-" id="BTNsub" onclick="">
+    <input type="button" value="x" id="BTNmul" onclick="">
+    <input type="button" value="%" id="BTNdiv" onclick="">
     
 
     <script>
@@ -25,7 +25,8 @@
         var n2 = Number(n2s.value)
 
         function calcular(){
-
+            var botao = document.getElementById("BTNcalc");
+            botao.style.backgroundColor = "gray";
         }
     </script>
 </body>
