@@ -12,7 +12,7 @@ body > input{
     margin-right: 1%;
 }
 body > input#num1{
-    margin-left: 22%;
+    margin-left: 24%;
     width: 70px;
 }
 
@@ -26,7 +26,7 @@ input[type="button"]{
     width: 40px;
     border-radius: 15px;
     border: 1px;
-    background-color: rgb(19, 175, 40);
+    background-color:green;
     font-size: 13pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;

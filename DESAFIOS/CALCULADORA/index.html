@@ -12,10 +12,10 @@
     <input type="number" name="num1" id="num1">
     <input type="number" name="num2" id="num2">
     <input type="button" value="OK" id="BTNcalc" onclick="calcular()">
-    <input type="button" value="+" id="BTNsoma" onclick="">
-    <input type="button" value="-" id="BTNsub" onclick="">
-    <input type="button" value="x" id="BTNmul" onclick="">
-    <input type="button" value="%" id="BTNdiv" onclick="">
+    <input type="button" value="+" id="BTNsoma" onclick="somar()">
+    <input type="button" value="-" id="BTNsub" onclick="subtrair()">
+    <input type="button" value="x" id="BTNmul" onclick="multiplicar()">
+    <input type="button" value="%" id="BTNdiv" onclick="dividir()">
     
 
     <script>
@@ -25,7 +25,29 @@
         var n2 = Number(n2s.value)
 
         function calcular(){
-            var botao = document.getElementById("BTNcalc");
+            var btsoma = document.getElementById("BTNsoma");
+            btsoma.style.backgroundColor = "green";
+            var btsub = document.getElementById("BTNsub");
+            btsub.style.backgroundColor = "green";
+            var btmul = document.getElementById("BTNmul");
+            btmul.style.backgroundColor = "green";
+            var btdiv = document.getElementById("BTNdiv");
+            btdiv.style.backgroundColor = "green";
+        }
+        function somar(){
+            var botao = document.getElementById("BTNsoma");
+            botao.style.backgroundColor = "gray";
+        }
+        function subtrair(){
+            var botao = document.getElementById("BTNsub");
+            botao.style.backgroundColor = "gray";
+        }
+        function multiplicar(){
+            var botao = document.getElementById("BTNmul");
+            botao.style.backgroundColor = "gray";
+        }
+        function dividir(){
+            var botao = document.getElementById("BTNdiv");
             botao.style.backgroundColor = "gray";
         }
     </script>
