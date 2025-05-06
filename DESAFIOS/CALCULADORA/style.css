@@ -60,4 +60,9 @@ body h3#ad{
 
 body h3#his{
     text-align: center;
+    color: green;
+}
+
+body > h3#res{
+    color: green;
 }
