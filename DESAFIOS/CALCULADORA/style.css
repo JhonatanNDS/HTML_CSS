@@ -12,13 +12,13 @@ body > input{
     margin-right: 1%;
 }
 body > input#num1{
-    margin-left: 25%;
-    width: 100px;
+    margin-left: 22%;
+    width: 70px;
 }
 
 body > input#num2{
-    margin-left: 15px;
-    width: 100px;
+    margin-left: 30px;
+    width: 70px;
 }
 
 input[type="button"]{
@@ -39,7 +39,7 @@ input[type="button"]{
 #BTNsoma{
     margin: 0px;
     margin-left: 32%;
-    margin-top: 5%;
+    margin-top: 12%;
 }
 
 #BTNsub{
